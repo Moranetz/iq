@@ -6,6 +6,8 @@ Most "brain training" apps are multiple-choice quizzes with confetti. You either
 
 CORTEX is different. You **weigh evidence on a tipping scale**, **build consequence chains**, **calibrate your probability intuition**, and **construct persuasive messages in the right order** — the interaction itself teaches the concept.
 
+<p align="center"><img src="screenshot.png" width="600" /></p>
+
 ---
 
 ## 7 Ways to Think
