@@ -1,153 +1,129 @@
 # 🧠 CORTEX
 
-### The reasoning game where the mechanic IS the skill.
+**The reasoning game where the mechanic IS the skill.**
 
-> Most "educational" apps are quizzes wearing costumes. CORTEX is different.  
-> You don't pick answers. You **weigh evidence**, **build argument chains**, **calibrate your intuition**, and **construct persuasive messages** — the interaction itself teaches the concept.
+Most "brain training" apps are multiple-choice quizzes with confetti. You either already know the answer or you guess. Guessing isn't learning.
 
----
-
-## The Problem
-
-**Kids can't think critically — and nothing teaches them to.**
-
-Schools teach *what* to think. Social media rewards *speed* over *accuracy*. Every day, teens encounter survivorship bias, false dilemmas, anchoring tricks, and correlation-causation errors — and they have zero training to recognize them.
-
-The apps that try? They're multiple-choice quizzes with confetti. You either already know the answer or you guess. Guessing isn't learning.
-
-## What Happens If We Don't Fix This
-
-A generation that can't distinguish evidence from anecdote. That falls for every anchoring trick, every appeal to popularity, every sunk cost trap. That can't construct a persuasive argument or predict second-order consequences.
-
-These aren't abstract skills. This is whether your kid can tell when they're being manipulated.
+CORTEX is different. You **weigh evidence on a tipping scale**, **build consequence chains**, **calibrate your probability intuition**, and **construct persuasive messages in the right order** — the interaction itself teaches the concept.
 
 ---
 
-## CORTEX — 7 Mechanics That Teach Through Play
+## 7 Ways to Think
 
-Each game mechanic maps directly to a reasoning skill. You don't learn about the concept — you **perform** it.
+Each mechanic maps directly to a reasoning skill. You don't learn *about* the concept. You **perform** it.
 
-| Mechanic | You Do | You Learn |
-|---|---|---|
-| 🔬 **Find the Flaw** | Tap the exact broken phrase in a statement | Precision — *where* is the logic broken, not just *that* it's broken |
-| ⚖️ **Weigh Evidence** | Sort evidence cards to tip a visual scale | Not all evidence is equal — learn to rank by weight |
-| 🔗 **Build the Chain** | Order consequence cards into a cause-effect timeline | Second-order thinking — "then what? and then what?" |
-| 🎚️ **Calibrate** | Set a probability slider, then see reality | Your intuition vs math — base rates, gambler's fallacy |
-| 🎤 **Build Your Case** | Arrange argument blocks in persuasive order | Persuasion architecture — Hook → Problem → Stakes → Solution → Evidence → Action |
-| ✏️ **Fix It** | Watch a flawed argument get rewritten in real-time | See *exactly* what makes reasoning break and how to repair it |
-| 🎯 **Spot It** | Fast-fire Kahoot-style colored answer blocks | Pattern recognition under time pressure |
+### ⚖️ Weigh Evidence
+*Sort evidence cards to tip the scale. Not all evidence is equal.*
 
-### 23 Concepts Taught
+<p align="center"><img src="screenshots/04-scale.png" width="300" /></p>
+
+### 🔬 Find the Flaw
+*Tap the exact broken phrase. Precision, not guessing.*
+
+<p align="center"><img src="screenshots/03-highlight.png" width="300" /></p>
+
+### 🔗 Build the Chain
+*Order consequences into a timeline. "Then what? And then what?"*
+
+<p align="center"><img src="screenshots/05-chain.png" width="300" /></p>
+
+### 🎚️ Calibrate
+*Set a probability slider, then see reality. Your intuition vs math.*
+
+<p align="center"><img src="screenshots/06-slider.png" width="300" /></p>
+
+### 🎤 Build Your Case
+*Arrange argument blocks in persuasive order. Hook → Problem → Stakes → Solution → Evidence → Action.*
+
+<p align="center"><img src="screenshots/07-persuade.png" width="300" /></p>
+
+### ✏️ Fix It
+*Watch flawed reasoning get rewritten in real-time.*
+
+<p align="center"><img src="screenshots/08-rewrite.png" width="300" /></p>
+
+### 🎯 Spot It
+*Kahoot-style colored answer blocks. Fast pattern recognition.*
+
+<p align="center"><img src="screenshots/09-classic.png" width="300" /></p>
+
+---
+
+## Choose Your Training
+
+<p align="center"><img src="screenshots/01-home.png" width="300" /></p>
+
+Pick a specific mechanic to practice, or shuffle everything together.
+
+---
+
+## Why This Exists
+
+Every day, teens encounter survivorship bias, false dilemmas, anchoring tricks, and sunk cost traps — and they have zero training to detect them.
+
+The apps that try to help are quizzes. Read a paragraph, pick A/B/C/D. If you don't already know the concept, you're just guessing. The "learning" happens in an explanation you read *after* you already got it wrong.
+
+**CORTEX flips this.** The game mechanic teaches the concept. Sorting evidence on a scale *is* evidence weighing. Building a consequence chain *is* systems thinking. Setting a probability slider *is* calibration. You experience the skill before you're ever told its name.
+
+---
+
+## 23 Concepts Taught
 
 Survivorship Bias · Anecdote ≠ Evidence · Ad Hominem · False Dilemma · Cherry Picking · Correlation ≠ Causation · Confounding Variables · Sunk Cost Fallacy · Confirmation Bias · Anchoring Bias · Availability Heuristic · Bandwagon Effect · Base Rate Neglect · Gambler's Fallacy · Goodhart's Law · Second-Order Effects · Cobra Effect · Perverse Incentives · Appeal to Popularity · Persuasive Structure · Evidence Hierarchy · Audience-First Persuasion · Hook → Stakes → Solution
 
 ---
 
-## What We Stole (And From Whom)
+## What We Stole
 
-Good artists borrow. Great artists steal. Here's our receipt:
+**From Duolingo** — 3D buttons with bottom shadows, mascot with emotional states and speech bubbles, hearts, progress bar, Nunito font, minimal text.
 
-**From Duolingo** — 3D buttons with thick bottom shadows, mascot with speech bubbles and emotional states (heart eyes at streak 4+, sad face on wrong answers), progress bar, hearts system, Nunito font, rounded everything, minimal text.
+**From Kahoot** — Each answer is a distinct bold color (red ●, blue ◆, green ▲, yellow ★). The color is the identity.
 
-**From Kahoot** — Each answer option is a distinct bold color (red ●, blue ◆, green ▲, yellow ★) in a 2×2 grid. The color IS the option identity. Wrong answers fade to 12% opacity while correct scales up.
+**From Brilliant** — "Aha moment" reveal with blur-to-sharp animation. Mascot as guide, not decoration.
 
-**From Brilliant** — The "aha moment" reveal with blur-to-sharp animation. Mascot as learning guide, not decoration. The insight card shows the concept name as the visual hero, one sentence of explanation, nothing more.
-
-**What's new** — Nobody combined these into a game where the interaction mechanic and the reasoning skill are the same thing. Sorting evidence on a scale *is* evidence weighing. Building a consequence chain *is* systems thinking. Setting a probability slider *is* calibration. The game doesn't describe the skill. It **is** the skill.
-
----
-
-## Design Philosophy
-
-**Visual hierarchy: Icon → Color → Shape → then text.**
-Every screen leads with a visual element before any words appear. Answer options are identified by color and shape, not letter labels. The mascot's face communicates feedback faster than text ever could.
-
-**One sentence per insight. Period.**
-The old version had 3-sentence explanations with a "use this IRL" paragraph. Now: concept name (big, centered) + one line. Kids absorb the name and the line. That's all they need.
-
-**The mechanic teaches. The explanation confirms.**
-You experience the concept through interaction FIRST. The insight card after just names what you already did. This is Bloom's taxonomy: apply → then label.
-
----
-
-## Tech Stack
-
-- **React 18** — Single JSX file, no external component libraries
-- **Canvas API** — Brain mascot with real-time animation (blinking, bobbing, heart eyes, orbiting sparkles, crown at level 7)
-- **Web Audio API** — Synthesized sounds with escalating pitch on combos (no audio files)
-- **Web Vibration API** — Haptic feedback on mobile
-- **CSS Animations** — Confetti with particle trails, screen shake, XP fly, combo slam, insight reveal blur
-- **Vite** — Build and dev server
-
-Zero dependencies beyond React. No Tailwind. No component library. No state management library. Everything is self-contained.
+**What's new** — Nobody combined these into a game where the interaction mechanic and the reasoning skill are the same thing.
 
 ---
 
 ## Run It
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cortex.git
-cd cortex
+git clone https://github.com/melmarion/iq.git
+cd iq
 npm install
 npm run dev
 ```
 
-Open `http://localhost:5173` — works best on mobile viewport (430px) but scales to any screen.
+Open `http://localhost:5173`
 
-## Deploy
+### Deploy
 
 ```bash
 npm run build
 ```
 
-The `dist/` folder is ready for Vercel, Netlify, or any static host.
+`dist/` folder is ready for Vercel, Netlify, or any static host.
 
 ---
 
-## Project Structure
+## Stack
 
-```
-cortex/
-├── index.html          # Entry point with meta tags
-├── package.json        # Vite + React
-├── vite.config.js      # Build config
-└── src/
-    ├── main.jsx        # React mount
-    └── App.jsx         # Everything — 900 lines, one file
-```
+React 18 · Vite · Canvas API (animated mascot) · Web Audio API (synthesized sounds, no audio files) · Web Vibration API (haptics on mobile) · CSS animations (confetti, screen shake, combo system)
 
-Yes, it's one file. Intentionally. This is a prototype that proves a concept. When it becomes a product, it splits into components, question banks become API-driven, and persistence gets wired in.
+Zero dependencies beyond React. 900 lines. One file.
 
 ---
 
 ## What's Next
 
-- [ ] **Persistent storage** — XP, level, streak survive across sessions
-- [ ] **API-generated questions** — Infinite fresh scenarios via Claude API
-- [ ] **Daily challenge** — Cross-session streak with escalating rewards  
-- [ ] **Spaced repetition** — Concepts you got wrong resurface more often
-- [ ] **Social sharing** — Challenge a friend to beat your score
-- [ ] **More persuasion mechanics** — Reframe mode, audience analysis, objection handling
-- [ ] **Drag-and-drop** — True drag interactions for chain building and evidence sorting
-- [ ] **Native iOS** — SwiftUI port with Core Haptics and Rive animations
+- [ ] Persistent storage — XP, level, streaks survive across sessions
+- [ ] API-generated questions — infinite fresh scenarios
+- [ ] Daily challenge with cross-session streaks
+- [ ] Spaced repetition — concepts you missed resurface more
+- [ ] Social sharing — challenge a friend
+- [ ] Drag-and-drop — true drag for chain building and evidence sorting
+- [ ] Native iOS — SwiftUI port with Core Haptics
 
 ---
 
-## Why This Matters
-
-Every reasoning skill in this game transfers directly to real decisions:
-
-- **Survivorship bias** → Don't invest because your barber got lucky
-- **Base rate neglect** → Don't panic at a positive test for a rare disease  
-- **Second-order effects** → Predict what actually happens when a city makes transit free
-- **Persuasive structure** → Get your parents to raise your allowance (seriously)
-- **Sunk cost fallacy** → Quit the game you hate after 2,000 hours
-- **Anchoring bias** → Don't fall for "was $200, now $80!"
-
-These aren't academic concepts. They're the difference between thinking clearly and getting played.
-
----
-
-<p align="center">
-  <b>CORTEX</b> — think smarter ✨🧠
-</p>
+<p align="center"><b>CORTEX</b> — think smarter ✨🧠</p>
