@@ -1,34 +1,29 @@
-import Foundation
+import StoreKit
 import UIKit
-@preconcurrency import StoreKit
 
 final class ReviewManager {
     static let shared = ReviewManager()
-    private init() {}
-
     private let defaults = UserDefaults.standard
     private let lastVersionKey = "ReviewManager_lastVersionPrompted"
+    private let playTimeKey = "ReviewManager_totalPlayTime"
+    private init() {}
 
-    private var currentVersion: String {
-        Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "0"
-    }
-
-    private var alreadyPromptedThisVersion: Bool {
-        defaults.string(forKey: lastVersionKey) == currentVersion
-    }
-
-    func checkAndPromptReview(accuracy: Int, sessionCount: Int) {
-        guard accuracy >= 70 else { return }
-        guard sessionCount >= 3 else { return }
-        guard !alreadyPromptedThisVersion else { return }
-
+    /// Call periodically (e.g. every few seconds) with elapsed time.
+    /// Prompts for review after 1 hour of total use, once per version.
+    func addPlayTime(_ seconds: Double) {
+        let total = defaults.double(forKey: playTimeKey) + seconds
+        defaults.set(total, forKey: playTimeKey)
+        guard total >= 3600 else { return }
+        let currentVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0"
+        guard defaults.string(forKey: lastVersionKey) != currentVersion else { return }
         defaults.set(currentVersion, forKey: lastVersionKey)
-
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            if let scene = UIApplication.shared.connectedScenes
-                .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
-                SKStoreReviewController.requestReview(in: scene)
-            }
+            guard let scene = UIApplication.shared.connectedScenes
+                .compactMap({ $0 as? UIWindowScene })
+                .first(where: { $0.activationState == .foregroundActive })
+            else { return }
+            SKStoreReviewController.requestReview(in: scene)
         }
     }
 }
+

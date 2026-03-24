@@ -231,7 +231,7 @@ final class GameState {
                 dailyChallengeCompletedToday = true
             }
             saveToDisk()
-            ReviewManager.shared.checkAndPromptReview(accuracy: accuracy, sessionCount: gamesCompleted)
+            // Review managed by play-time tracker
             return
         }
         roundIndex += 1
