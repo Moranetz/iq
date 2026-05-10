@@ -90,7 +90,7 @@ Survivorship Bias · Anecdote ≠ Evidence · Ad Hominem · False Dilemma · Che
 ## Run It
 
 ```bash
-git clone https://github.com/melmarion/iq.git
+git clone https://github.com/moranetz/iq.git
 cd iq
 npm install
 npm run dev
